@@ -20,8 +20,21 @@ Libera Chat: #otakufan
 
 y el desafío posiblemente vaya de utilizr esta cadena 32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd en covert chanel
 
-encontramos esto
+encontramos esto, 
 
 https://hashxp.org/en/address/32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd#google_vignette
 
-vemos que el reto se complica, parece ir de investigar cryptowallets...
+vemos que el reto se complica, parece ir de investigar su cryptowallet y como utilizan transacciones cripto para mensajes ofuscados...
+
+miro en blockchain.com
+
+https://www.blockchain.com/explorer/addresses/btc/32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd
+
+las 3 transacciones se hicieron el día 
+
+08 Sep 2021 12:19:21 GMT+1
+
+Analizo los json de las 3 transacciones pero soy incapaz de ver un mensaje oculto.
+
+
+
