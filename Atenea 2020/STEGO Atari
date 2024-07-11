@@ -104,4 +104,9 @@ jpg:= 1
 
 Foremost finished at Thu Jul 11 00:20:30 2024
 
-que no nos sirve de mucho. Entonces aquí la cosa está en encontrar la contraseña manual de stego.
+que no nos sirve de mucho. Entonces aquí la cosa está en encontrar la contraseña manual de stego. Pero antes volvemos a binwalk.
+
+con binwalk -D 'zip' --dd='raw:0x1C5D0B:1858827' consigo PKKvH, que quizá es la contraseña del zip pero no es la de la imagen si se intenta extraer con openstego
+
+
+
