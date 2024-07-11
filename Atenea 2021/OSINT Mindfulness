@@ -115,3 +115,75 @@ Megapixels                      : 0.377
 Si buscamos la imagen en internet por RIS vemos que es de stock
 
 https://tineye.com/search/372d67b93ad03242eb6d0e71d6c917a2cca65f1a?sort=score&order=desc&page=1
+
+
+El request UDP nos dice 
+
+Method: GET
+Request URI: /w/load.php?lang=es&modules=ext.centralNotice.js,ext.gadget.DiscussionTools.js,... (truncated for brevity)
+Host: 192.168.1.236
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: */*
+Referer: http://192.168.1.236/
+Accept-Encoding: gzip, deflate
+Accept-Language: es-419,es;q=0.9
+
+Status Code: 404 Not Found
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 275
+Server: Apache/2.4.46 (Debian)
+Keep-Alive: timeout=5, max=100
+
+Decido simplificar y buscar el nombre de la imagen por internet. Como en el Pcap se lee info sobre wiki, haciendo dorking encuenro Chakra1.jpg en esta página con la misma imagen
+
+https://www.yogapedia.it/index.php?title=File:Chakra1.jpg
+
+Este es un posible candidto. El admin es https://www.instagram.com/yogapills/ pero no creo sea esto, asi que continuo
+
+chakra1.jpg no es la flag
+
+Yogapedia.it tampoco
+
+me guardo mas info de la imagen
+
+GET /favicon.ico HTTP/1.1
+Host: 192.168.1.236
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.1.236/chakra1.jpg
+Accept-Encoding: gzip, deflate
+Accept-Language: es-419,es;q=0.9
+
+y respuesta del servidor
+
+HTTP/1.1 200 OK
+Date: Tue, 23 Mar 2021 19:58:26 GMT
+Server: Apache/2.4.46 (Debian)
+Last-Modified: Tue, 23 Mar 2021 16:28:53 GMT
+ETag: "f0ed-5be36ad9cde25"
+Accept-Ranges: bytes
+Content-Length: 61677
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: image/jpeg
+
+.�.�..JFIF...........�.C..............................................!........."$".$.....�.C..................................................................�......�.."........�.............................�...........................�............�0;|�..
+6rꀱ�.bc.�6��L.0E.m��%�IL��D.%.�*T$..�Y..-.�HY.
+�Ȉ�D.$+.�@�.R....
+.�4�L@�4.�....c.:%�.(E1.�m�M��Yt"(.��A%.��.�.�����._�ϙ?6������0P:��T.�.˒U�."f�'.�tʒH�%!
+.����}��...�h.. ....tM6.`:.lN�5@����.�.�$�Kl��..S;?a�N^�Þ��j�>���M�te.<Ҭ!ZK'"�Z!ZLk"!Z&m.R1��B�D�F�
+ .��....�..,�m�Q��t'LT3g�iJ.&؛.������.�nɦ.�.�1�u.�h곾߮�f��.7����..�.=�.D��.<R�Y��E�)Z1�U
+�.bD�&m.�.�H����$.+��}.<�..�..��b.F�
+�I��*tM6*.���c`0�.�.2-ɤt�nD6IA�6�u�N�ؼq��;������..��|Z����}�7��+5�f�*�I����6�
+D+D*I*�3h��$NI!\�RY. ..�@�.P�aJ��.��m�n�[bn�]2]5�A5A-�i��B(Y*Ηǽo�y�뽯Rk�:�}��z�<.E�.�3������u˛(ߖ.�U�56��.�bj��AJ�Z!\�.���B�cW�~y�IT�..j�.�.���RiMZ��Tؾ���Ղ�t�ۉ��.�m��.Q�H.6N|[�ry�I�c����.Ad}���ֳ/��&����#��/�4�O��t�ʴ��.C%ZXT$+�g$�.".g>U��.�$M�/K���(��.�*����K�.��Y�.jR�c��垫��iՓM��.nT�.mF�.5.ɶ�,�.Bˠ�֟g5��:^_.�D�..�}���.Y�}n.g�u�.�N���"���>ߗ~XVY
+��i\䄂�
+�Sh�I!Z.;U
+�i"m.��¹!\.5.���.Lt�Mї.�M�Sp�2j��1JM..
+�]
+
+ok
+
+
