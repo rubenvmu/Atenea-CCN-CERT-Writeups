@@ -1,0 +1,84 @@
+
+
+Encuentra la flag
+
+Enlace: https://atenea.ccn-cert.cni.es/challenges?category=24&status=correct
+
+-------------------------------------------------------------------------------------------------------
+
+Nos dan una imagen
+
+Hacemos exiftool y nos quedamos esta linea Copyright Notice IosefTarasov8181
+
+ExifTool Version Number         : 12.87
+File Name                       : guns-8257a4248e18737e85c2891b70b46473.jpg
+Directory                       : C:/Users/UNGUREANU R Vasile/Desktop
+File Size                       : 3.0 MB
+Zone Identifier                 : Exists
+File Modification Date/Time     : 2024:07:11 14:31:56+01:00
+File Access Date/Time           : 2024:07:11 14:32:17+01:00
+File Creation Date/Time         : 2024:07:11 14:32:09+01:00
+File Permissions                : -r--r--r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Current IPTC Digest             : 74b011c5ee2ead81439a665c57ff8b92
+Copyright Notice                : IosefTarasov8181
+Application Record Version      : 4
+XMP Toolkit                     : Image::ExifTool 11.98
+Rights                          : Copyright
+Image Width                     : 3000
+Image Height                    : 2908
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 3000x2908
+Megapixels                      : 8.7
+
+
+Encontramos
+
+su perfil https://keybase.io/ioseftarasov8181 que nos lleva a un
+
+pastebin raro https://pastebin.com/UvmjjC1k
+
+en un principio, parece un ejercicio de criptografía (no debería pues es OSINT)
+
+
+          iKKKEKDi jKEKKEKDf                                                                             iKWKWKEi                                                     EW#WDDEKKKKKD   ;EKKKEED    LKWW#WWKKEf      KKWKKKD   EKEKKDDj                      fK#W##WWKDt    jEEKKEKE         jEKKKEKD,        
+          iW##WWEi jKW##WWGf                                                                             iW###WEi                                                     K#WEGGEWW##WG.  fW##WKDL   KW##WKEKKWKE,     WW###WE  iW####GE.                     DW#WKWEKKWEK    jK###WEE         jK##WWEG,        
+          iWEGGDGi jEGDLGjGf                                                                             iWEDDGGi                                                     ##ELLftKWDLDGf  EWKDGGG   E#WKDGGGDEDDEDE.   WKGDGLD  K#WGGGGt                     i##KGLGGGDDDEEj  jWKDDGGL         jWWDDDGG,        
+          iWEDDELi jDGGELEGL                                                                             tWKDKDLi                                                     #WEGG, KWDGKLL  K#EGLLG  jWWKEDEDDEWDDEEEL   #EGDDDE  K#KGDGL.                     K#WELLLDDKEGDEE  jWKEDDDD         jWWGGDGG,        
+          iWEDEDGi                                                                                       iWEGEDGi                                                    i#ELGD  EWGDEGD ,W#DDLDf  E#KDDGff:EKEEEEEE   #KDDDDD  W#KDGGG                     ,KWEDLLD,EKEGEDDj jWDGDDGD         jWWDDDDG;        
+   ;DEKE: iWEEGDGi jKKEKKEEf    ,LKKKKEG.          jEKWEEG          .jEKKKED.      jEKEKKGG  fG   ;DKEE. iWKDEGGi           EKEEf. EEKKEED;   tEKKEL  EKKKKKE        KWEDGt  ,EKEEGD.GWWEGLG   K#GGDGGG jWDEGLDG   #KDDDGD .#KEDjL.       jKKKEED.      D#EEDGD  .EKDGDLD jKEEGLLL .KKKKEE jWWDDDDD;.EKKKEE 
+  GWW#WKEttKDEEGDi jKW###KEL   EKW#W#WWKEG       fKK##WWWKDt       LKK###WWWEG:    jW###WDD.EKE  GWW#WKEjtWEDDDGi          G##WKKE K####EDi   W##WKDi K#W#WED       :KKDGG.   KKKDDG;EWWDDLL  ,K#DGDGGG tWEDGEGD   #KDGEGD j#KEGfG      LKW###WWKEL     D#EDDLG   EKDDGDD jWEEDLGE fW##WDL jWWEGDDL,fW#WWEG 
+  W##KEKEWDKEEDLLi jWWKKKDDf  t###WKWKKKKEG     .W##WKKKKWKED      W##KKKEKKKDG    jWKWKDDDEWWD  W##KKKWKDWDDLDfi         fW#WKKKKfW#KKKGE;  f#WWEEKEfWKKKEDG       fWKGGD    DWELLfjK#WDLL;  iW#DDEGGG tWKDDGGD   #ELGEGG DWKDGDG     .W##WWKWEKKDE    E#EGDLG  ;WKGDDGD jWEDEGEL EWKEDjt jWWGDGGD,E#WKEGt 
+ j#KDEDGDGDKEDEDGi jWWGDDDGf GWWKDGfDGEEEKEf   GW#KDLGGDDDEKEj   jW#KGfLGDEEEEEE   jWEDEGDK#WED j#KEDDGDLDKDDEDDi        iK#DDDGGGDWKEDDLD; iWWEDDDDLEWEDDDGL       K#EDL;     WWEDDDK#WDGL   tWWDEDDDL tWDDLfLG   #KDEDGEiWKDELLG    fW#KELGDEDDEEED   EEDDDLG  E#EDDGGD jWKDDLDLfW#EDGG  jWWDDDDG;W#KDGG  
+ LWEEGGLLGDDEGKGLi jWWEEDGDf E#KDDjLGEKDDGGD   K#DDGfLLDKEEDEE   K#KGDGDGDKDDDGEt  jWEGDDDKKKGD L#EEDDjGGEDDDGGGi        fW#EDEGGDDKEDDEGG; fWEGDffGGKKDGDGLG      iK#EGG      KKDDLDW#WfLL   tWWEDDDGL tEDfGGDG   #KGEGDEGWKGDGLj    K#KDELGfDKKGDDG,  EGEGLLD ,K#EDEGGG jWEDEGGDEWWGLGj  j#WDGDGG;##EGGG  
+ GWEDDGGt.DKDGEGDi jWWDEEGGf K#DDDGD;EWKDDGD  iW#GEDGLtEWKDDGD: .K#EDEGLtEWKDDDGG  jWEDDDDDKDGD DWEDEGGt.DKEDGGGi        DWWEEDLGfDWKDEDDG; GWEGDGGf.DWEDDGDL      GW#GGG      KKDDDKKWKfDG   jWWDDDGGG tDGGDGLG   #KDGGEEKWEDGLD.   ,K#EDDDGiEWKDDDGL          DW#EEGLGt jWEEDDGDKWKGLG:  jWWEDDGD;WWKGGG  
+ DKDGGGG  tWEEGfGi jWWEDEGff KWEDDfG fEEGLDD  GWWGDEGG jWWEDLDf LWWDGDGG fWKEEDGD  jWEDGGEEDDLG DKDEDGf  iWEDEDDi        DWWDEEfG tKWDDDGG; DWGEEGLG tKEEDGGL      K#KDGG      EKKEDDKKDfGf   jWWEDGDGG            #KDGEEGDEDDLLf    L#WGDEDG fWKGDDDE          W#KDEGjL  jWEDDDDEEKEfDD   jWKDEDGEEWEELjf  
+ DWEDEDG  iWDDEGDi jWWDDDjfL KWDDDDD fEEGLDf  DWWDDEGG jKKffjGL DWWGDDGG fWKDLDLD. jWEDGEEGGjjD DKEDDfD  i#EDEGfi        D#WDDLfE tKWDDGGD; EWGEDLLL jWEEEGGD      W#EGGD      GKWLDGEEEGG:   jWWLLLGGG            #EDGDDDEEEDLD.    DWWGEDGL fWWKDDDG         ,#WKDDjj;  jWEDGDEEKKEfDG   jWWDEEDEKEEDjj;  
+ DKDEGGG  tWKDEGDi jW#EDLGGL DWDEGGD;fELGGDE  D#WDEDGG jEDfGGLG DWWEDDLD fWWGEGDD: jWDDDKGGjjGE DKEDGDG  tWEDEGEi        D#KDLLGE tWWEGEGG; DWDEGLGD jWKDGGGK      #WKGGf      tKWEGDEEELD    jWWLDDGDL            WWGEDEDDEGDGK     DWWDEDLE fWWGDDDL:        E#WDDjjG   jWEGEDDGEGDGGG   jWWEDGDDKEDfGD   
+ DKGEDDG  iWKDDLEi jWWDDDLLf iEEEDEKKEi       D#KGKEDG          DWWGDELE fWWGLDDL: jWEEDDGL,    DKDDDLG  tWKDDLfi        D#KDDELG tWWEDGDD; D#DDGGDE tKKEDGGD     ;#KDGD        EWGDEDELLi    jWWEGGGDLKW#W##WWD   WEDEDEGGKDEGEG    DWWDGDEK##WWDEDGL,       E#KEELLG    jWEDGEDGGDEGGt   jWKKEDDDEDDGLt   
+ DEEEEDL  tWEGGDGi tWWLLDfLf  GEEGDDEKEE      D#KEDDLL          DWWGDDGD fWWDEDGL: jWEDLELf     EKDDLLG  tWKGGGDi        D#KLDGLG tWWEGGGf; E#EGDDDD tWEDDfGE     G#EGGD        LEKDEGDfE     jKKGLGGDLK#WEKKKEG   #KDDGEEEDDDLEG    DWWDDDLLDGDDDDLfG,      fW#EKGjGL    jWKGGDGDGEEDLL   jWWDDDLDKLLDfL   
+ DKKEDLG  tWKDDDDi jWKDEEGGL   KGGDGEKKKEi    D#KDEGfG          E#KDDGED jWWEEDDD: jWDLDLfG     DKEKGGD  iWDDDDDi        EWKEEDGE tWWGGDLGi DWDDEGDD tWEGGGEL     KWDGEj        ,KKDEDDGG     jWWDDDEfLWWEDDGEDG   #KDEDEEDDGLDLL,   E#KDEKfLDDEDGLGLG,      E#WKGLGDf    jWDGDGDKDDGGGD   jWWEGGDKGDEEDD   
+ EWEGDGG  tWKDGDGi jWWDEELDL   jEEEDEDKKKDD   DWKEDGDD          D#WEEDGG fWKDEEDG: jWEEEGDG     EWEEEEE  iWEDDDDi        DWWEEDDD jWWEEEGD; DWGDDDLD tWEGDDGG    .KWEDD:         EKEGDGLj     jWWDGEDDGKKEEEDDLG   #KEEDDDDDDEEGEf   D#WEEEGDEDGLGGGLG,      W#WDGDGD     jWKEEDEDDDDLGD   jWWDGDEDDDEEGD.  
+ DWDGLGD  iWEDDLGi jWKDDEDGf      GEEGELKKKG  DWKEDDDD  EKEKKKL D#EDDDGL fWWEGGGG: jWEEELLL     GKDKDGG  iKEEEDLi        DWKDEGGD jWWLDDDD; GWEEELLD tWEDDDGL    DWDDGD          fKDGDDG      jWWGEDKjG  EKDDDLG   #EGDDGLLDEEELLG   D#EDDKDD               E#KEGffG      jWGDDDDGDLDDDE   jWKDDDDGLDDEDGG  
+ DKDDDDG  iWDDDDGi jWWKDDfGL       ;DDEEDDDGi DWKEDDDD  WW#WWEL EWKGDDGG fWKDGGLG: jWDDDDGE     DKKDDLG  iWKDDGLi        DWKDDDGK jW#GDGDG; D#DDDfDG jWEDGGDG    K#GLGi          fKDEDGG      jWWDGDDLL  EEDEDGG   #EGGDGDiEEDDDGE   EWKDKDGL  EKKWKED,    tWWDDDGL.      j#DDGDGGDEEGDG   jWWDDGGDDKEDLDK  
+ EWDDDGf  iWEEDDLi jWWEGDLGL         EKKGDEDL DWKDGDDD  KWKEELL EWEDEGGG fKWGDGLD: jWDEEGLD     DKEGGLD  iWEGELGi        DWKGDDGE fWWGGDLD; DWDEGLDG fWDDGDGG   ;K#LLL           fWDDEDG      tWWDGDLfL  EKEGGGG   WKGGEDD EKEEDGD   EWEDEGLG  KW##WKG,    K#KDEGLL       jWDGDLDLDEDDEL,  jWWGDGDGGKDDLGD  
+ DKEDDGG  iWEEDLDi jWWDGELLL KW###DD .K#DEGGD GWKDEDDG  KWEGGGf DWKDGEDD fWWDDDGD  jWDEDDGL     DKEEDGL  iWEDDGGi        fKKGEEDKK##WDDDDGi LKKDDDEEWW#EDGGLD   E#WGGL           jWEEEDG      iKWEGDDGG  KKGEDGG   WKDDEDG GKEDEGGi  DWKDEDGD  K#DDDLL:   K##DLDfD:       jWEDDDGDEKEEGGD  jWKEDGGL;KEEGGD  
+ DWDGLGD  tWEDDGGi jWKDDDGGL KWWEKGG  KWEDDfG fKKEDDDD  K#DDGEt GWEDDDGG fWWEGGGG  jWEEELLG     GKEKEDG  tKEEDDLi        iEKDDGDKWWWKLEDGD; iEEDEGDEKKWDDDDLL   K#WjDG           fKDGDGG      ;KWGDDEfG  EKDDDLD   #EGDDGG tWKEGGDL  GWEDEKDD  KWLDEGD.   W#WDGGLj        jWGEDDDGEDEDDDG  jWWDDDDG,KKEDGD  
+ DKDDDDG  jWDDDDGi jWWKDDfGL DWEGGGD .K#DGDfL tKWEDDDG. W#ELGG; fKKGDEGG LWKDGLLD  jWDDDDGE     GKKDDLG  jWKDDGfi ;KKWEG  EKDDDDKGGEKGDGDG;  KEDDLDLGDEDDGGDG   K#WfLD           fKDEDGG      :WWDGDDLG .EEDEDGG   #EGGDGD  WKDDDED  fKKDKDGL  K#DEDGG   t#WKDLGD         j#DDGDGGGEKGDGLi jWWDDGGD,KKEGDK; 
+ LWEDEGDKKWWEEDGGi jWKDDGGLf jEDGDEEKW##DELfj  EKGDDKKKW#WDLfL   DKDDDDKKW#WDLLLt  jWDEELDL     LKEGDDEKKWWDDDGLi ;WKEDL   LDGDLGf,KWGDDGD;   KDGGGLG,KEDGDGL   #KELGt           jKEDEDG       DKEDGLGD:DWEDDDDD   WEDDEDD  KWEGEGGf  DEDDGEEKW##ELLLj  LWWEGDGEKEKKEKDE: jWDDDGDG:KWEDDDD jWWDDGDG,EWEDGDG 
+ jWKDDDEEKWKEEDLGi jWWDGEfGL .EKDDDKW#WKDDfG:  fEEDDEEK#WEGjL.   GEEGEEKW#WKGGGD   jWGEDDGG     jWKDDDDKKWEDDGGGi ;WEDGf    LEDGGi,KWDDDDG;   ,LDDDG ,KKDLGLG  ;#KDGG            jWEEEDG       iDKGDDDEWWWDGEDGG   #KDDEDL  EWEDDGDD  tEEEDDKW##KGGLG   E#EGDDLEW##W##EE: jWEDDDGD KWEGDDD.jWKDDLGL;EWKGDDG.
+ :EEEDDLEDGKDDDDGi jKWDGDGGL  LEDGGEEKEDLLEL    EEDGEDDEDLGLL    .DEDDDEEKDGDLG,   jWDEDGLL     :KKDGDGfDEEEGKDLi ;WKDGL          ,KWDGDDL,          ,WEDDGfG  L#EDLG            fWEEDGD        GKDDDDEWKDGDEDDG   #KDDDGD  E#KDGDDD   GDEDGEEEEEGGf;   E#EEDDDEEKEEKKGD: jWEGDDLG EWDKEDEtjWWDDDGf,DKKDDDGt
+  GDEDLLLiiDGGLGDi jEDDGGGGf   tDKDDDDGGLDf      DEDfGDGGGG;       DDDGDGLLDDG:    jEDjGGLG      GEDEDGDiiDGLfDGi ;DGEGG LKW###KE;K#WDKDGD  LK#W#WEE:DWKDDLGG .KEDGG;            jDGGGLf         DEEDGEGLL:EEGDG   EDLGGLG  GGDGGDLLG   jEDKDGDGDGG,    EELGEGGjDGGGGGGG: jEGEDDGG iDDfDLGDjDDDGGLG;iEDDDGGK
+   iDDLL  iDGGLEGi tEDLGDLEL     ;DDLGDDt.        :fELDDGL          ,LDDDLfD,      jDjDLDGL       iDDGD  iDLfDDfi ;GEDfj tKWKKKKKKW#WKDLGG  tEWKWKEEKW#EGffDD tEGEGE             jLGGGLL         :GKDEDGGD EDGGG   ELGGGLE  iELDGLDGG     iDGDLGGi      DDLEDLjDDDGGDGED: jEEDGGLG  GDDDGGGtGEGLjLD; DELEDED
+                                                                                                                          EKDDGKKW#WEDGGLt   DWEGEDKW##DLLGGj GDGELG                               ;DDGGi                                                                                                   
+                                                                                                                           DDDGDLGGDfLLL      DLLLDLLDfffLG                                                                                                                                                 
+                                                                                                                            DDEDGEGGLLGj      GDEGDGLDLGDG                                                                                                                                                  
+                                                            
+
+Hasta que nos damos cuenta de que es un asciiart de un enlace a un discord discord.gg/YGKe2kk
+
