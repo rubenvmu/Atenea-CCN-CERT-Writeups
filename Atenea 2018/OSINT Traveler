@@ -1,0 +1,47 @@
+A partir de las fotos estamos intentando deducir el ID del vuelo que ha tomado determinado sospechoso. ¿Nos ayudas?
+El flag debe calcularse a partir del ID en mayúsculas (Ej: AK4124).
+
+Enlace: https://atenea.ccn-cert.cni.es/challenges?category=retos-2019
+
+Nos dan  3 imágenes, las volteamos
+
+En dos de ellas coincide la misma fecha: 2 de noviembre de 2019, tanto tablet como ticket. Abro Stegosolve por si no veo alguna señal y uso filtro de color inverso, vemos terminales J49 y J48 dentro del aeropuerto. 
+
+Sobre el ticket de bus, de ida:
+El billete es emitido por Lufthansa, una compañía aérea alemana.
+El tipo de billete es un "Single" (sencillo) y un "Ticket" (billete).
+La fecha de emisión y validez es el 2 de noviembre de 2019.
+El billete es para un viaje en autobús expreso de Lufthansa (Lufthansa Express Bus).
+El pasajero es un "Frwachsener" (adulto joven).
+El billete es una "Einzelfahrkarte" (billete de un solo viaje).
+El destino es  Múnich ( airports ).
+La hora de salida o llegada es las 11:00.
+El número de billete es B11ZF78100TP.
+El precio del billete es de 11,00 EUR, con un impuesto sobre el valor agregado (Mwst.) del 7,0%.
+El billete fue pagado en efectivo (Bezahlt mit Cash).
+La fecha y hora de pago es el 2 de noviembre de 2019 a las 11:27.
+Hay caracteres chinos, pero quizá es solo para ayudar a los turistas chinos, quizá no significa que va a China.
+
+Bien, pongámonos serios
+
+El techo de la fotografía 3 es indudablemente el del aeropuerto de Barajas
+
+y encontramos este vuelo ese día https://es.flightaware.com/live/flight/DLH1801/history/20191102/1115Z/LEMD/EDDM
+
+Mi hipótesis es que la intención es viajar de España a Alemania en el vuelo DLH1801, y que el ticket de bus es para cuando llegue ahí, ir a Munich.
+
+Pero parece errónea, no es ccb9e6c61c7f5edd16e3e87cf13fc0c7 Lufthansa 1801
+DLH1801 / LH1801
+
+Indudablemente la puerta de la última foto es el J48 de la Terminal 4 de Madrid (el otro vuelo no podía ser porque era por la E67)
+
+https://es.foursquare.com/v/gate-j48--t4-mad/4ca0c65d8afca09381ac1516
+
+Entonces debería ver que vuelos embarcaron ese día hacia munich.
+
+(no encuentro ese posible vuelo)
+
+
+
+
+
