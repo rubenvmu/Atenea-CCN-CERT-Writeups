@@ -1,0 +1,27 @@
+
+
+Estamos tras la pista del atacante capitant0ad, conocido por utilizar técnicas novedosas de covert channels. ¿Nos ayudas con la investigación?
+
+Objetivo: encuentra la flag
+
+enconramos su about.me
+
+https://about.me/capitant0ad
+
+CAPITAN T0AD
+Plumber in Kinoko Ōkoku
+Hey, I’m Capitan. I am a plumber currently living in Kinoko Ōkoku. My interests range from castles to mushroom. I am also interested in mario bros.
+
+Favorite Game: Super Mario Galaxy
+
+Libera Chat: #otakufan
+
+32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd
+
+y el desafío posiblemente vaya de utilizr esta cadena 32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd en covert chanel
+
+encontramos esto
+
+https://hashxp.org/en/address/32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd#google_vignette
+
+vemos que el reto se complica, parece ir de investigar cryptowallets...
