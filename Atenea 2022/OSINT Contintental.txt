@@ -80,5 +80,7 @@ en un principio, parece un ejercicio de criptografía (no debería pues es OSINT
                                                                                                                             DDEDGEGGLLGj      GDEGDGLDLGDG                                                                                                                                                  
                                                             
 
-Hasta que nos damos cuenta de que es un asciiart de un enlace a un discord discord.gg/YGKe2kk
+Hasta que nos damos cuenta de que es un asciiart de un enlace a un discord
+
+discord.gg/YGKe2kk
 
