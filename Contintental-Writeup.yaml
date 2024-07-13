@@ -1,49 +1,15 @@
+Reto: Encuentra la flag.
 
-
-Encuentra la flag
-
-Enlace: https://atenea.ccn-cert.cni.es/challenges?category=24&status=correct
-
--------------------------------------------------------------------------------------------------------
-
-Nos dan una imagen
-
-Hacemos exiftool y nos quedamos esta linea Copyright Notice IosefTarasov8181
-
-ExifTool Version Number         : 12.87
-File Name                       : guns-8257a4248e18737e85c2891b70b46473.jpg
-Directory                       : C:/Users/UNGUREANU R Vasile/Desktop
-File Size                       : 3.0 MB
-Zone Identifier                 : Exists
-File Modification Date/Time     : 2024:07:11 14:31:56+01:00
-File Access Date/Time           : 2024:07:11 14:32:17+01:00
-File Creation Date/Time         : 2024:07:11 14:32:09+01:00
-File Permissions                : -r--r--r--
-File Type                       : JPEG
-File Type Extension             : jpg
-MIME Type                       : image/jpeg
-Current IPTC Digest             : 74b011c5ee2ead81439a665c57ff8b92
+1:
+Hacemos exiftool a la imagen
 Copyright Notice                : IosefTarasov8181
-Application Record Version      : 4
-XMP Toolkit                     : Image::ExifTool 11.98
-Rights                          : Copyright
-Image Width                     : 3000
-Image Height                    : 2908
-Encoding Process                : Baseline DCT, Huffman coding
-Bits Per Sample                 : 8
-Color Components                : 3
-Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
-Image Size                      : 3000x2908
-Megapixels                      : 8.7
 
+2:
+Su perfil de Keybase https://keybase.io/ioseftarasov8181 nos lleva a este pastebin: https://pastebin.com/UvmjjC1k
+[En un principio, parece un ejercicio de criptografía (no debería pues es OSINT)]
 
-Encontramos
-
-su perfil https://keybase.io/ioseftarasov8181 que nos lleva a un
-
-pastebin raro https://pastebin.com/UvmjjC1k
-
-en un principio, parece un ejercicio de criptografía (no debería pues es OSINT)
+3:
+Nos damos cuenta de que es un asciiart de un enlace a un discord: https://discord.gg/YGKe2kk
 
 
           iKKKEKDi jKEKKEKDf                                                                             iKWKWKEi                                                     EW#WDDEKKKKKD   ;EKKKEED    LKWW#WWKKEf      KKWKKKD   EKEKKDDj                      fK#W##WWKDt    jEEKKEKE         jEKKKEKD,        
@@ -80,7 +46,4 @@ en un principio, parece un ejercicio de criptografía (no debería pues es OSINT
                                                                                                                             DDEDGEGGLLGj      GDEGDGLDLGDG                                                                                                                                                  
                                                             
 
-Hasta que nos damos cuenta de que es un asciiart de un enlace a un discord
-
-discord.gg/YGKe2kk
-
+3: H
