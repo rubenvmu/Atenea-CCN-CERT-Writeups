@@ -10,6 +10,6 @@ Flag: The Hitchhiker's Guide to the Galaxy
 
 ┌──(araintel㉿rvmu-rvmu)-[~]
 └─$ echo -n "The Hitchhiker's Guide To The Galaxy" | md5sum
-ce55eac3e8d53b004e7f7989dbdee2f4  -
+ce55eac3e8d53b004e7f7989dbdee2f4
 
 
