@@ -1,4 +1,6 @@
-Reto: El fichero .pcap adjunto ha sido creado por un ciberdelincuente en su equipo. Necesitamos identificar cualquier pista o artefacto que nos lleve a la identificación del mismo. ¿Nos ayudas?
+Reto: El fichero .pcap adjunto ha sido creado por un ciberdelincuente en su equipo. 
+Necesitamos identificar cualquier pista o artefacto que nos lleve a la identificación del mismo.
+¿Nos ayudas?
 
 Nota: Ignórese información publicada después del 26 de abril de 2021.
 
@@ -14,7 +16,9 @@ Accept: */*
 Referer: http://192.168.1.236/ (IP PRIVADA)
 Date: Tue, 23 Mar 2021 19:59:00 GMT  Greenwich Mean Time
 Server: Apache/2.4.46
-Content-Type: text/html; charset=iso-8859-1
+Content-Type: text/html; charset=iso-8859-1 (GMT Y LA ISO ES EN ESPAÑOL). 
+El usuario podría ser español.
+
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 
 2:
@@ -29,8 +33,16 @@ Decido simplificar y buscar el nombre de la imagen por internet.
 Como en el Pcap se lee info sobre wiki, haciendo dorking encuenro Chakra1.jpg en esta página con la misma imagen:
 https://www.yogapedia.it/index.php?title=File:Chakra1.jpg
 
-No parece ser esa la página que estamos buscando, la imagen es "chakra.jpg".
+No parece ser esa la página que estamos buscando, la imagen es "chakra1.jpg".
 
+4: 
+
+No se muy bien por donde tirar, por RSI no se encuentra chakra1.jpg.
+
+Ethernet II, Src: PCSSystemtec_e8:ff:c5 (08:00:27:e8:ff:c5), Dst: LittleMachin_ab:01:10 (08:00:31:ab:01:10) D
+estination: LittleMachin_ab:01:10 (08:00:31:ab:01:10) Address: LittleMachin_ab:01:10 (08:00:31:ab:01:10) .... 
+..0. .... .... .... .... = LG bit: Globally unique address (factory default) .... ...0 .... .... .... .... = 
+IG bit: Individual address (unicast) Source: PCSSystemtec_e8:ff:c5 (08:00:27:e8:ff:c5) Type: IPv4 (0x0800) que es esto
 
 
 
