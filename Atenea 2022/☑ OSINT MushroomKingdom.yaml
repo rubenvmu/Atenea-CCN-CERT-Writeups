@@ -1,0 +1,40 @@
+Reto: Estamos tras la pista del atacante capitant0ad, conocido por 
+utilizar técnicas novedosas de covert channels. ¿Nos ayudas con la investigación?
+
+Objetivo: encuentra la flag
+
+1: 
+Encontramos su about.me https://about.me/capitant0ad
+CAPITAN T0AD
+Plumber in Kinoko Ōkoku
+Hey, I’m Capitan. I am a plumber currently living in Kinoko Ōkoku. 
+My interests range from castles to mushroom. I am also interested in mario bros.
+Favorite Game Super Mario Galaxy
+Libera Chat #otakufan
+
+32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd:
+
+2:
+El desafío posiblemente va sobre esa cadena 32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd y canales encubiertos.
+https://hashxp.org/en/address/32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd#google_vignette
+Hay que nvestigar la cryptowallet y como utilizan transacciones cripto para ofuscar mensajes.
+
+3:
+Vamos a blockchain.com
+https://www.blockchain.com/explorer/addresses/btc/32FRUjkbkj7WucGJU6dmtJ2HU3RLx4VQVd
+Las 3 transacciones se hicieron el día 
+08 Sep 2021 12:19:21 GMT+1
+Analizamos los json de las 3 transacciones
+
+Última transacción:
+https://www.blockchain.com/explorer/transactions/btc/8cba53d4b5e632a273b26ea69603e6b4718935dae490c67763c310c6f06a3c51
+
+Decoded OP_Return:
+Flag: Toadstool2021
+
+┌──(araintel㉿rvmu-rvmu)-[~/Desktop]
+└─$ echo -n "Toadstool2021" | md5sum
+65655d7e09a047d260f87f6c014b7fe7  -
+
+
+
