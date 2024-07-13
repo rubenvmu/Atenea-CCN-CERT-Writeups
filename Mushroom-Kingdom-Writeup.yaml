@@ -33,7 +33,7 @@ Flag: Toadstool2021
 
 ┌──(araintel㉿rvmu-rvmu)-[~/Desktop]
 └─$ echo -n "Toadstool2021" | md5sum
-65655d7e09a047d260f87f6c014b7fe7  -
+65655d7e09a047d260f87f6c014b7fe7
 
 
 
