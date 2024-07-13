@@ -3,7 +3,7 @@ Necesitamos tu ayuda para localizar a un conocido ciberdelincuente. La única in
 Objetivo: identifica la ciudad donde se encuentra el atacante. Ej: Oslo
 
 1:
-![Imagen de exploit](https://i.ibb.co/r6DvJP6/exploit-in202010231-thread3154-4da22237407a17c32af03bacd2123887.gif)
+<img src="https://i.ibb.co/r6DvJP6/exploit-in202010231-thread3154-4da22237407a17c32af03bacd2123887.gif" alt="Imagen de exploit">
 
 
 2: 
