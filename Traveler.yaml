@@ -1,11 +1,10 @@
-A partir de las fotos estamos intentando deducir el ID del vuelo que ha tomado determinado sospechoso. ¿Nos ayudas?
-El flag debe calcularse a partir del ID en mayúsculas (Ej: AK4124).
-
-Enlace: https://atenea.ccn-cert.cni.es/challenges?category=retos-2019
+Reto: A partir de las fotos estamos intentando deducir el ID del vuelo que ha tomado determinado sospechoso. ¿Nos ayudas?
+El flag debe calcularse a partir del ID en mayúsculas (Ej AK4124).
 
 Nos dan  3 imágenes, las volteamos
 
-En dos de ellas coincide la misma fecha: 2 de noviembre de 2019, tanto tablet como ticket. Abro Stegosolve por si no veo alguna señal y uso filtro de color inverso, vemos terminales J49 y J48 dentro del aeropuerto. 
+En dos de ellas coincide la misma fecha: 2 de noviembre de 2019, tanto tablet como ticket. 
+Abro Stegosolve por si no veo alguna señal y uso filtro de color inverso, vemos terminales J49 y J48 dentro del aeropuerto. 
 
 Sobre el ticket de bus, de ida:
 El billete es emitido por Lufthansa, una compañía aérea alemana.
