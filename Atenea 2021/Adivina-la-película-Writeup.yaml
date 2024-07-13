@@ -1,0 +1,15 @@
+Reto: Averigua el título original de la película a la que corresponde la 
+imagen adjunta para superar este reto.
+
+Solución: Reto muy sencillo de Reverse Image Search. Si buscamos la imagen 
+en lugares como TinEye sabremos que se trata de 
+
+https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy:
+
+Flag: The Hitchhiker's Guide to the Galaxy
+
+┌──(araintel㉿rvmu-rvmu)-[~]
+└─$ echo -n "The Hitchhiker's Guide To The Galaxy" | md5sum
+ce55eac3e8d53b004e7f7989dbdee2f4  -
+
+
