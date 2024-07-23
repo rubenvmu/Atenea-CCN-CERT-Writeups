@@ -1,0 +1,55 @@
+Un miembro de un grupo de cibercrimen uzbeka ha publicado información confidencial del grupo. 
+En el fichero adjunto se observan conversaciones privadas extraídas de un servicio de mensajería 
+utilizados por sus integrantes. Necesitamos identificar y localizar a alguno de sus miembros.
+
+El nombre del reto es Бухоро, Bujará, quinta ciudad más grande de Uzbekistán.
+
+Encontramos este enlace:
+https://www.mediafire.com/folder/7bnf7tmkbo2m0/Reversing
+
+Hacemos caso a la pista "Take a look":
+{
+"ts": "2022-02-18T15:38:14",
+"from": "AK@jabbstmc.onion",
+"to": "baltic@jabbstmc.onion",
+"body": "I was calling you (check your skype). I have created a directory to upload the videos we talked about. Take a look at UNC1945: https://www.mediafire.com/folder/7bnf7tmkbo2m0/Reversing"
+}
+{
+"ts": "2022-02-18T15:45:46",
+"from": "baltic@jabbstmc.onion",
+"to": "AK@jabbstmc.onion",
+"body": "Nice! got it. Thanks AK"
+}
+
+Enlaces descargas:
+https://www.mediafire.com/file/zd64hj62kfo3xnd/Cyber%252C_Cyber%25E2%2580%25A6_%25E2%2580%2593_110_%25E2%2580%2593_UNC1945%252C_czyli_co_atakuje_telekomy.mp4/file
+https://www.mediafire.com/file/zj6gcj157jisphu/Hexorcist_-_IDA_Pro_Universal_Unpacker_Manual_Reconstruct.mp4/file
+
+Vemos que los archivos fueron subidos este día a esta hora aproximadamente:
+This file was uploaded from Spain on March 15, 2022 at 4:53 PM
+2022-03-15 15:28:32 España (aunque podría estar manipulado por VPN)
+
+Nos quedamos con esta dirección:
+AK@jabbstmc.onion
+
+Arriba en mediafire dice:
+shared by "akhasir" 
+
+En la red TOR no encuentro nada:
+
+Usamos exiftool en el video que AK recomienda y vemos:
+Encoder: Google
+Handler vendor: Apple
+
+Sería interesante ver si hay algun drive o icloud que guarde ese archivo pues no se si es posible hacer 
+ingenieria inversa a Mediafire.
+
+Hipotetizo varias cosas: Lo de srcCopy parece ser que es una captura o grabación... lo que está más
+o menos claro es que se subió desde un iphone o dispositivo apple...
+
+
+
+
+
+
+
